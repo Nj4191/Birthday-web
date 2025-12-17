@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Jar of Love</title>
+<link rel="stylesheet" href="/style.css" />
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+<style>
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #7b0d1e, #b11226);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.card {
+  text-align: center;
+  max-width: 800px;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/* Jar layout */
+.jar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 150px;
+}
+
+.jar-image {
+  max-width: 200px;
+  border-radius: 15px;
+}
+
+.message {
+  background: #fff;
+  color: #7b0d1e;
+  padding: 0.8rem 1rem;
+  border-radius: 15px;
+  text-align: center;
+  font-weight: 500;
+}
+</style>
+</head>
+<body>
+
+<div class="card">
+  <h1>💖 Jar of Love 💖</h1>
+  <p>4 reasons why I love you</p>
+
+  <div class="jar-container">
+    <!-- Left messages -->
+    <div class="messages">
+      <div class="message">You make me smile every day 😊</div>
+      <div class="message">Your kindness inspires me 💛</div>
+    </div>
+
+    <!-- Jar image -->
+    <img src="data:image/jpeg;base64,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" alt="Jar of Love" class="jar-image" />
+
+    <!-- Right messages -->
+    <div class="messages">
+      <div class="message">You support me in everything ❤️</div>
+      <div class="message">Your laughter is contagious 😄</div>
+    </div>
+  </div>
+
+  <button onclick="window.location.href='gift.html'" style="margin-top:2rem; padding:0.8rem 1.6rem; border:none; border-radius:30px; background:#ff4d6d; color:#fff; cursor:pointer;">
+    Back to Gifts
+  </button>
+</div>
+
+</body>
+</html>
